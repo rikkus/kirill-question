@@ -48,7 +48,7 @@ namespace HS.Benchmark.Playground
                 AddBenchmark("JordanTerrellCached", () => new JordanTerrellCached().InsertSpaceBetweenCrLfs(text), benchmark);
                 AddBenchmark("KooKiz2", () => new KooKiz2().InsertSpaceBetweenCrLfs(text), benchmark);
                 AddBenchmark("PiersH", () => new PiersH().InsertSpaceBetweenCrLfs(text), benchmark);
-                AddBenchmark("PiersH2", () => new PiersH().InsertSpaceBetweenCrLfs(text), benchmark);
+                AddBenchmark("PiersH2", () => new PiersH2().InsertSpaceBetweenCrLfs(text), benchmark);
                 AddBenchmark("Robert2", () => new Robert2().InsertSpaceBetweenCrLfs(text), benchmark);
                 AddBenchmark("Warturtle", () => new Warturtle().InsertSpaceBetweenCrLfs(text), benchmark);
 

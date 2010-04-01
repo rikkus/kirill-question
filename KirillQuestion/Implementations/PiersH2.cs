@@ -11,9 +11,10 @@ namespace KirillQuestion.Implementations
         {
             // check for null
             if (input == null)
+
                 throw new ArgumentNullException("input");
 
-            var cch = input.Length;
+            int cch = input.Length;
 
             // simple boundary condition, helps later
             if (cch < 4)
@@ -25,8 +26,8 @@ namespace KirillQuestion.Implementations
             // handle boundary condtion later, instead of in loop
             cch -= 3;
 
-            var ichStart = 0; // the start of the current span
-            var ichEnd = 0; // the end of the current span
+            int ichStart = 0;    // the start of the current span
+            int ichEnd = 0;    // the end of the current span
 
             while (ichEnd < cch)
             {
