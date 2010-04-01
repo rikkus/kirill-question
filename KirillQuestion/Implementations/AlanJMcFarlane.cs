@@ -8,7 +8,6 @@ namespace KirillQuestion.Implementations
     public class AlanJMcFarlane : InsertSpacesFixture
     {
         public string InsertBetweenTwoMatches(string input, string match, string insert)
-
         {
             var matchPos = 0;
 

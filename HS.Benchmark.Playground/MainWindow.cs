@@ -42,6 +42,7 @@ namespace HS.Benchmark.Playground
                     ).ReadToEnd();
 
                 AddBenchmark("Ddkk", () => new Dbkk().InsertSpaceBetweenCrLfs(text), benchmark);
+                AddBenchmark("fholm", () => new Fholm().InsertSpaceBetweenCrLfs(text), benchmark);
                 AddBenchmark("JaredParsons", () => new JaredParsons().InsertSpaceBetweenCrLfs(text), benchmark);
                 AddBenchmark("JordanTerrell", () => new JordanTerrell().InsertSpaceBetweenCrLfs(text), benchmark);
                 AddBenchmark("JordanTerrellCached", () => new JordanTerrellCached().InsertSpaceBetweenCrLfs(text), benchmark);
@@ -49,6 +50,7 @@ namespace HS.Benchmark.Playground
                 AddBenchmark("PiersH", () => new PiersH().InsertSpaceBetweenCrLfs(text), benchmark);
                 AddBenchmark("PiersH2", () => new PiersH().InsertSpaceBetweenCrLfs(text), benchmark);
                 AddBenchmark("Robert2", () => new Robert2().InsertSpaceBetweenCrLfs(text), benchmark);
+                AddBenchmark("Warturtle", () => new Warturtle().InsertSpaceBetweenCrLfs(text), benchmark);
 
                 benchmark.Begin();
             }

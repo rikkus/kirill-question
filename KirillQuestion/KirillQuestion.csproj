@@ -49,6 +49,7 @@
     <Compile Include="IInsertSpaces.cs" />
     <Compile Include="Implementations\AlanJMcFarlane.cs" />
     <Compile Include="Implementations\Banko.cs" />
+    <Compile Include="Implementations\Fholm.cs" />
     <Compile Include="Implementations\HuseyinTufekcileri.cs" />
     <Compile Include="Implementations\Dbkk.cs" />
     <Compile Include="Implementations\JaredParsons.cs" />
@@ -71,6 +72,7 @@
     <Compile Include="Implementations\SebastianUFSharp.cs" />
     <Compile Include="Implementations\TadSmith.cs" />
     <Compile Include="Implementations\ThomasLevesque.cs" />
+    <Compile Include="Implementations\Warturtle.cs" />
     <Compile Include="InsertSpacesFixture.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
